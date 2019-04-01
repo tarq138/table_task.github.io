@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: block;
+    height: 70px;
+    background-color: #563d7c;
+}
+.header h1{
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding-top: 15px;
+}
+.footer{
+    display: block;
+    height: 50px;
+    background-color: #563d7c;
+}
+.footer p{
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+}
+.header h1, .footer p{
+    font-family: "MONOSPACE", Times, serif;
+}
+.fas.fa-check{
+    color: limegreen;
+}
+.fas.fa-times{
+    color: red;
+}
+#Id:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+#UserId:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+#Title:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+#Completed:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+select {
+  font-family: 'FontAwesome', 'sans-serif';
+}
+.nonetimes, .donetimes, .nonecheck, .donecheck{
+    display: block;
+    float: left;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+.nonetimes:hover, .donetimes:hover, .nonecheck:hover, .donecheck:hover{
+    cursor: pointer;
+}
+.nonetimes{
+    border: 1px solid red;
+}
+.donetimes{
+    background: red;
+}
+.nonecheck{
+    border: 1px solid limegreen;
+}
+.donecheck{
+    background: limegreen;
+}
+
+.donetimes .fas.fa-times, .donecheck .fas.fa-check{
+    color: white;
+}
+
+
+.edit-td .edit-area {
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  resize: none;
+  outline: none;
+  overflow: auto;
+}
+
+.edit-controls {
+  margin-top: 8px;
+}
+
+.edit-td {
+  padding: 0;
+}
+button{
+    background: white;
+    border: 2px solid #d4d3d3;
+    color: #d4d3d3;
+    border-radius: 5px;
+}
